@@ -187,7 +187,7 @@ transform = transforms.Compose([
 ])
 
 # Load the reports dataset
-csv_path = r"E:\image-generation-deployment\indiana_reports.csv"
+csv_path = "image-generation-deployment\indiana_reports.csv"
 reports_df = pd.read_csv(csv_path)
 
 # Process the image and extract features

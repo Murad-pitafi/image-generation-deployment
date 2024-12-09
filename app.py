@@ -27,7 +27,7 @@ def display_app():
         # Placeholder for results
         with st.spinner("Processing image..."):
             # Set reference reports for BLEU calculation (dummy reference used here)
-            reference_reports = [["The heart size and pulmonary vascularity appear within normal limits."]]
+            reference_reports = [["The cardiac silhouette and mediastinum size are within normal limits."]]
             
             # Fetch the result from the model
             bleu_score, report = generate_bleu_score_and_report(uploaded_file, reference_reports)

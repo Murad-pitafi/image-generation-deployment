@@ -1,5 +1,11 @@
 **CV Project Report**
 
+**Abstract**
+
+Automatic radiology report generation can significantly benefit clinical physicians by reducing workload and improving efficiency. However, existing methods face challenges in effectively extracting and preserving prominent features and enhancing focus on pivotal regions. This paper introduces the Instance-level Expert Knowledge and Aggregate Discriminative Attention framework (EKAGen) for radiology report generation. EKAGen leverages expert reports by embedding them into a space to generate comprehensive disease representations as Preliminary Knowledge Support (PKS). It refines these representations into Rectified Knowledge Support (RKS) to mitigate feature disruption. EKAGen diagnoses diseases and retrieves knowledge from RKS to create Instance-level Expert Knowledge (IEK) for individual images, enhancing report generation.
+Additionally, the Aggregate Discriminative Attention Map (ADM) employs weak supervision to identify pivotal image regions, emphasizing their significance. A novel Global Information Self-Distillation (GID) strategy is used for training, where an iteratively optimized model distills global knowledge into EKAGen. Extensive experiments on IU X-Ray and MIMIC-CXR datasets demonstrate that EKAGen surpasses state-of-the-art methods, offering a robust solution to the challenges in radiology report generation.
+
+
 Code Segments and Modifications
 
 **1. XRGEN Model**

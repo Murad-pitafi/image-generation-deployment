@@ -1,6 +1,9 @@
 **CV Project Report**
+
 Code Segments and Modifications
+
 **1. XRGEN Model**
+
 Original Functionality
 The XRGEN model integrates multimodal input (visual features, textual embeddings, and topic embeddings) for advanced medical image understanding. It was initially functional but lacked clarity in handling various components and modes.
 Key Modifications
